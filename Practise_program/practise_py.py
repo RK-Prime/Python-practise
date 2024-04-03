@@ -1,4 +1,4 @@
-def calculator_progam():
+def calculator_program():
     
     def calculator(head_msg):
         print(head_msg)
