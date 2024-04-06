@@ -1,3 +1,6 @@
+from typing import List
+
+
 def calculator(num1, oper, num2):
     if oper == "+":
         print(f"Addition : {num1 + num2}")
@@ -278,7 +281,7 @@ def filters():
     def odd(n):
         if n%2 == 0:
             return False
-        else :
+        else:
             return True
 
     b = list(filter(odd,a))
@@ -476,4 +479,4 @@ def pattern_14():
 if "__main__" != __name__:
     pass
 else:
-    pattern_14()
+    lists_b()
