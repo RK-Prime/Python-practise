@@ -522,7 +522,7 @@ class Dice:
 
 class Student:
 
-    def __init__(self, name,course,branch):
+    def __init__(self, name, course, branch):
 
         self.name = name
         self.course = course
@@ -539,3 +539,5 @@ s2 = Student('Haris', 'BTech', 'CSE')
 
 s1.info()
 s2.info()
+
+
