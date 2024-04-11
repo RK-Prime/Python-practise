@@ -98,7 +98,7 @@ def stdntStorefunc_example():
     # printing student object
     for obj in stdnt_list_stored:
         obj.info()
-        print(type(obj))
+        #print(type(obj))
 
 # calling out 'stdntStorelist_func()' function
 # stdntStorefunc_example()
